@@ -15,13 +15,13 @@
 
 import React from 'react';
 import './App.css';
-import SignUp from './sign-up/page';
+import CalendarDisplay from "./CalendarDisplay";
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <SignUp/>
+        <CalendarDisplay/>
       </header>
     </div>
   );
