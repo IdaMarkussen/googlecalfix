@@ -6,16 +6,19 @@ function Navbar() {
     <nav>
       <ul className='nav'>
         <h3>Visma Calender</h3>
-        <div className='nav-item'>
-          <li>Oversikt</li>
-          <li>Nyheter</li>
+        <div>
+          <div className='nav-item'>
+            <li>Oversikt</li>
+            <li>Nyheter</li>
+          </div>
+          <div className='nav-item'>
+            <input type='text' placeholder='Search...' />
+            <li>🔔</li>
+            <li>⚙</li>
+            <li>Info</li>
+          </div>
         </div>
-        <div className='nav-item'>
-          <input type='text' placeholder='Search...' />
-          <li>**</li>
-          <li>**</li>
-          <li>Info</li>
-        </div>
+        <p>ˬ</p>
       </ul>
     </nav>
   );

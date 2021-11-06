@@ -8,6 +8,13 @@
   align-items: center;
 }
 
+.nav > div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 70%;
+}
+
 .nav > h3 {
   margin: 0;
   margin-left: 20px;
